@@ -188,7 +188,7 @@
                     const typingAnimationElement = document.getElementById('typing-animation');
 
                     // Create an array of typing text
-                    const typingTexts = ['Flutter Developer     ', 'Mobile Application Developer    '];
+                    const typingTexts = ['Flutter Developer','Mobile App Developer'];
 
                     // Create a function to display the typing animation for a given text
                     function playTypingAnimation(text) {
@@ -203,7 +203,7 @@
                       setTimeout(() => {
                         typingAnimationElement.textContent = '';
                         playTypingAnimation(typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]);
-                      }, text.length * 100); // Adjusted delay accordingly
+                      }, text.length * 150); // Adjusted delay accordingly
                     }
 
                     // Start the typing animation loop
@@ -211,8 +211,8 @@
                   </script><br><br>
                   <!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
                   <!-- <br> -->
-                  <p>
-                    <ul class="ftco-footer-social list-unstyled d-flex justify-content-left align-items-center mb-0">
+                  <div class="col-md-6 d-flex align-items-center justify-content-center">
+                    <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
                       <p>
                         <!-- <li class="ftco-animate"> <a href="https://www.youtube.com/@defconOP"> <span class="icon-youtube"></span></a> </li> -->
                         <!-- <li class="ftco-animate"> <a href="https://github.com/aakashx58"> <span class="icon-github"></span></a> </li> -->
@@ -348,9 +348,9 @@
                 </div>
               </div>
 
-              <div class="counter-wrap ftco-animate d-flex mt-md-3">
+              <div class="counter-wrap ftco-animate d-flex flex-column flex-md-row justify-content-center mt-md-3">
                 <div class="text">
-                  <p class="mb-4"> <span class="number" data-number="60">0</span> <span>+</span> <span>&nbsp; Projects completed</span> </p> 
+                  <p class="mb-4 text-center"> <span class="number" data-number="60">0</span> <span>+</span> <span>&nbsp; Projects completed</span> </p> 
                   <!-- <p>
                     <a href="https://www.linkedin.com/in/aakash569/" class="btn btn-primary py-3 px-3">LinkedIn</a>
                   </p> -->
@@ -775,3 +775,4 @@
     </body>
 
   </html>
+  
