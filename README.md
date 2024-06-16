@@ -2,5 +2,4 @@
 visit site [aakashrajbanshi.com.np](aakashrajbanshi.com.np)
 
 ## Screenshot
-<img src="https://github.com/aakashx58/portfolio/assets/106716824/f2be86fd-0b95-466a-9168-5996bce2c4d0">
-
+<img src="https://github.com/aakashx58/portfolio/assets/106716824/890a66f2-1429-4f14-acd1-f4401406e0d5">
